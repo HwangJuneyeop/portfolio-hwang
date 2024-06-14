@@ -160,11 +160,14 @@ h1 {
 .profile_area {
     display: flex;
     gap: 100px;
+    justify-content: center;
+    align-items: center;
     width: 80%;
+    margin-top: 50px;
 }
 
 .profile_area>img {
-    width: 50%;
+    width: 35%;
 }
 
 .introduction {
