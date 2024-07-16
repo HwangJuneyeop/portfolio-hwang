@@ -185,6 +185,7 @@ h1 {
 
 .profile_box p {
     margin-bottom: 20px;
+    line-height: 23px;
 }
 
 .profile_box img {
@@ -315,6 +316,21 @@ h1 {
     width: 600px;
     position: relative;
     z-index: 1;
+}
+/* 클론 플라이크 은평 */
+.pf_flyq {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    width: 98%;
+    height: 80%;
+    border-radius: 2%;
+    top: 8%;
+}
+.pf_flyq>.pc_flyq {
+    width: 100%;
+    transition: transform 2s ease;
 }
 
 /* 클론 애경산업 */
