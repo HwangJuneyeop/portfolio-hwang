@@ -37,32 +37,7 @@ h1 {
 .intro {
     background:url(../img/bg2.png)no-repeat center/cover;
 }
-.menubar {
-    width: 90%;
-    display: flex;
-    justify-content: flex-end;
-    gap: 40px;
-    margin-top: 30px;
-    position: fixed;
-    cursor: pointer;
-    z-index: 100;
-}
 
-.menubar .menu1,.menu2,.menu3 {
-    font-size: 22px;
-    font-weight: 500;
-    color:rgba(0, 0, 0, 0.5);
-    background: white;
-    border-radius: 10px;
-    width: 6%;
-    text-align: center;
-}
-.menubar li:hover {
-    color: #000;
-}
-.menubar li.on{
-    color: #000;
-}
 
 
 .loading_page {
@@ -153,7 +128,7 @@ h1 {
 .profile_head {
     position: absolute;
     top: 13%;
-    left: 10%;
+    left: 17%;
     font-size: 40px;
 }
 
@@ -290,7 +265,7 @@ h1 {
 .pf_head {
     position: absolute;
     top: 13%;
-    left: 10%;
+    left: 23%;
     font-size: 40px;
 }
 
